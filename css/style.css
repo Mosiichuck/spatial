@@ -203,9 +203,9 @@ section {
 .top {
 	background: #ffffff;
 	padding: 88px 0 58px 0;
-	color: #000000;
+	color: #666666;
 	line-height: 2;
-	text-transform: capitalize;
+	text-transform: none;
 }
 
 .top h2 {
@@ -213,7 +213,7 @@ section {
 	display: inline-block;
 	line-height: 70px;
 	height: 120px;
-	color: #000000;
+	color: #484848;
 	margin: 0 0 0 12px;
 }
 
@@ -223,18 +223,18 @@ section {
 	text-transform: uppercase;
 	margin: 0 0 0 12px;
 }
-
-.ba-top1 {
-	width: 44%;
+.top .ba-grid {
+	margin: 0 auto;
 }
-
-.ba-top2 {
-	width: 35%;
-	margin-left: 100px;
+.top-main {
+	width: 720px;
 }
 
 .top-right {
 	font-size: 14px;
+	margin-bottom: 21px;
+	line-height: 30px;
+	letter-spacing: 0.3px;
 }
 
 /*high block*/
@@ -340,11 +340,11 @@ ul .ba-button {
 }
 
 .mid h2 {
-	font-size: 49px;
+	font-size: 40px;
 	display: inline-block;
 	line-height: 49px;
 	height: 49px;
-	color: #000;
+	color: #484848;
 	margin-bottom: 28px;
 }
 
@@ -354,7 +354,7 @@ ul .ba-button {
 }
 
 .mid-text {
-	font-size: 12px;
+	font-size: 13px;
 	color: #aaa;
 	text-transform: uppercase;
 	margin-bottom: 15px;
@@ -375,8 +375,8 @@ h4 {
 }
 
 .mid-2-right {
-	font-size: 16px;
-	color: #000000;
+	font-size: 14px;
+	color: #666666;
 	line-height: 2;
 	text-transform: capitalize;
 
@@ -424,7 +424,7 @@ footer ul li a {
 }
 
 .info a, .social a:hover {
-	color: #aaaaaa;
+	color: #666;
 }
 
 footer ul {
